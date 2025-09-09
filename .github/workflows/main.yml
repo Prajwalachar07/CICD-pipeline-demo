@@ -7,7 +7,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: CICD
+    # environment: CICD
     permissions:
       contents: write
     steps:
